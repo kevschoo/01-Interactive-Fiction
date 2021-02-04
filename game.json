@@ -1,0 +1,678 @@
+{
+    "passages": [
+      {
+        "text": "Welcome Captain, it seems you were woken up from cryo-stasis to check up on the status of your ship. \nI am the ship's automated AI, NEROS.\nYour memory might be hazy.\nWould you like an explanation of what is going on?\n\n[[Yes]] \n[[No]] ",
+        "links": [
+          {
+            "name": "Yes",
+            "link": "Yes",
+            "pid": "10"
+          },
+          {
+            "name": "No",
+            "link": "No",
+            "pid": "11"
+          }
+        ],
+        "name": "Welcome Captain",
+        "pid": "1",
+        "position": {
+          "x": "926",
+          "y": "179.5"
+        },
+        "tags": [
+          "Beginning-"
+        ]
+      },
+      {
+        "text": "NEROS: You are currently in a deeper section of the Crew Cabins.\nOur commanders would like to make sure our ship is in top-notch condition before we arrive.\nThey have issued an order to examine each part of the ship and document any issues before our arrival on Earth.\nIt is against our military doctrine to leave all the maintenance to the AI.\n\n[[Crew Cabins]] ",
+        "links": [
+          {
+            "name": "Crew Cabins",
+            "link": "Crew Cabins",
+            "pid": "6"
+          }
+        ],
+        "name": "First Orders",
+        "pid": "2",
+        "position": {
+          "x": "804",
+          "y": "299.5"
+        }
+      },
+      {
+        "text": "You feel the vibration of the engines. \nThey are producing a tremendous amount of energy.\nYou check off the Engines as fully operational. \n\nNEROS: These engines are powered through the use of dark-matter.\nShould they malfunction it would destroy all matter in few miles.\n\nYou feel uneasy after hearing that.\n\n[[Travel Center]] ",
+        "links": [
+          {
+            "name": "Travel Center",
+            "link": "Travel Center",
+            "pid": "9"
+          }
+        ],
+        "name": "Engines",
+        "pid": "3",
+        "position": {
+          "x": "494",
+          "y": "396.5"
+        }
+      },
+      {
+        "text": "The room is filled with countless containers of equipment.\nYou watch as automated robots transfer containers from one place to another.\nYou check off the Cargo Bay as fully operational. \n\nNEROS: The robots are currently preparing for the awakening of other crew members.\n\n[[Travel Center]] ",
+        "links": [
+          {
+            "name": "Travel Center",
+            "link": "Travel Center",
+            "pid": "9"
+          }
+        ],
+        "name": "Cargo Bay",
+        "pid": "4",
+        "position": {
+          "x": "597",
+          "y": "397.5"
+        }
+      },
+      {
+        "text": "The Weapons System room powers on and the computer displays all of the weapons.\nOther than a damaged turret, all the other weapons are operational.\nYou find it strange that a turret was damaged even though you don't remember your last battle.\nYou check off the Weapons Systems as partially operational. \n\n[[Travel Center]] ",
+        "links": [
+          {
+            "name": "Travel Center",
+            "link": "Travel Center",
+            "pid": "9"
+          }
+        ],
+        "name": "Weapons Systems",
+        "pid": "5",
+        "position": {
+          "x": "602",
+          "y": "650.5"
+        }
+      },
+      {
+        "text": "As you exit your room and enter the crew cabins everything is silent. \nThe faint sound of electrical humming begins as the ship fully powers on. \nIt seems you were the only one who awoke from cryo-stasis. \nYou check off the Crew Cabins as fully operational. \n\nNERO: We are still preparing other crew members to awake from cryo-stasis. It will be a long time until they are ready.\n\n[[Travel Center]] ",
+        "links": [
+          {
+            "name": "Travel Center",
+            "link": "Travel Center",
+            "pid": "9"
+          }
+        ],
+        "name": "Crew Cabins",
+        "pid": "6",
+        "position": {
+          "x": "676",
+          "y": "524.5"
+        }
+      },
+      {
+        "text": "The food onboard the vessel tastes quite bland. \nMaybe it isn't even food, but you eat it anyway.\nYou check off the Canteen as fully operational. \n\nNEROS: I assure you, Captain, the paste you are eating is food and contains the chemicals for human life.\n\nEven with NERO's assurance, you're still pretty sure this wouldn't qualify as food.\n\n[[Travel Center]] ",
+        "links": [
+          {
+            "name": "Travel Center",
+            "link": "Travel Center",
+            "pid": "9"
+          }
+        ],
+        "name": "Canteen",
+        "pid": "7",
+        "position": {
+          "x": "420",
+          "y": "524.5"
+        }
+      },
+      {
+        "text": "The Ship Command seems fully operational. \n\nNEROS: Captain would you like to continue inspecting the ship or travel to Earth.\n\n[[To Earth]]\n[[Travel Center]] ",
+        "links": [
+          {
+            "name": "To Earth",
+            "link": "To Earth",
+            "pid": "12"
+          },
+          {
+            "name": "Travel Center",
+            "link": "Travel Center",
+            "pid": "9"
+          }
+        ],
+        "name": "Ship Command",
+        "pid": "8",
+        "position": {
+          "x": "500",
+          "y": "649.5"
+        }
+      },
+      {
+        "text": "NEROS: This is the center of the ship.\nAll other locations are accessible here.\n\n[[Engines]] \n[[Cargo Bay]] \n[[Canteen]] \n[[Crew Cabins]] \n[[Weapons Systems]] \n[[Ship Command]] ",
+        "links": [
+          {
+            "name": "Engines",
+            "link": "Engines",
+            "pid": "3"
+          },
+          {
+            "name": "Cargo Bay",
+            "link": "Cargo Bay",
+            "pid": "4"
+          },
+          {
+            "name": "Canteen",
+            "link": "Canteen",
+            "pid": "7"
+          },
+          {
+            "name": "Crew Cabins",
+            "link": "Crew Cabins",
+            "pid": "6"
+          },
+          {
+            "name": "Weapons Systems",
+            "link": "Weapons Systems",
+            "pid": "5"
+          },
+          {
+            "name": "Ship Command",
+            "link": "Ship Command",
+            "pid": "8"
+          }
+        ],
+        "name": "Travel Center",
+        "pid": "9",
+        "position": {
+          "x": "547",
+          "y": "523.5"
+        }
+      },
+      {
+        "text": "NEROS: You are the captain of this space Dreadnought.\nI am the ship's automated AI, NEROS, who is designed to maintain the ship and assist you.\nOur commanders on Earth have issued an order for us to return.\nWe are currently entering the SOL system.\nYou've been ordered to return from active duty in order to receive new orders.\nPlease Continue the examination of your ship.\n\n[[First Orders]] ",
+        "links": [
+          {
+            "name": "First Orders",
+            "link": "First Orders",
+            "pid": "2"
+          }
+        ],
+        "name": "Yes",
+        "pid": "10",
+        "position": {
+          "x": "806",
+          "y": "181.5"
+        }
+      },
+      {
+        "text": "NEROS: I understand.\nIt seems that you don't need any explanation.\nPlease continue the examination of your ship. \n\n[[First Orders]] ",
+        "links": [
+          {
+            "name": "First Orders",
+            "link": "First Orders",
+            "pid": "2"
+          }
+        ],
+        "name": "No",
+        "pid": "11",
+        "position": {
+          "x": "924",
+          "y": "299.5"
+        }
+      },
+      {
+        "text": "As your ship enters the communication ranges of Earth, you are greeted by your Commander. \nHe directs you to land on the lunar defense base to receive your new orders.\n\n[[Lunar Base]]\n\n\n\n",
+        "links": [
+          {
+            "name": "Lunar Base",
+            "link": "Lunar Base",
+            "pid": "13"
+          }
+        ],
+        "name": "To Earth",
+        "pid": "12",
+        "position": {
+          "x": "500",
+          "y": "800.5"
+        }
+      },
+      {
+        "text": "Your ship lands on the lunar base. Before you exit your ship the Ai warns you.\n\nNEROS: Captain, my sensors are detecting non-human lifeforms inside the base, I advise that you do not exit the ship.\n\n[[Enter Lunar Base]]\n[[Stay Aboard]]",
+        "links": [
+          {
+            "name": "Enter Lunar Base",
+            "link": "Enter Lunar Base",
+            "pid": "14"
+          },
+          {
+            "name": "Stay Aboard",
+            "link": "Stay Aboard",
+            "pid": "15"
+          }
+        ],
+        "name": "Lunar Base",
+        "pid": "13",
+        "position": {
+          "x": "500",
+          "y": "950.5"
+        }
+      },
+      {
+        "text": "You enter the docking area of the lunar base. The lights are still off on the outside, but the first section of the space door is open. \n\n[[Turn Back -> Lunar Orbit]]\n[[Explore -> Explore Lunar Base]]",
+        "links": [
+          {
+            "name": "Turn Back ",
+            "link": " Lunar Orbit",
+            "pid": "16"
+          },
+          {
+            "name": "Explore ",
+            "link": " Explore Lunar Base",
+            "pid": "17"
+          }
+        ],
+        "name": "Enter Lunar Base",
+        "pid": "14",
+        "position": {
+          "x": "425",
+          "y": "1100.5"
+        }
+      },
+      {
+        "text": "You receive a transmission from the base.\n\nCaptain, Are you going to leave your ship? The General will not be happy if you stall him any longer.\n\nNEROS: Captain, While your choice is final, I do not recommend entering the base.\n\n[[Enter Lunar Base]] \n[[Leave -> Leave Lunar Base]]",
+        "links": [
+          {
+            "name": "Enter Lunar Base",
+            "link": "Enter Lunar Base",
+            "pid": "14"
+          },
+          {
+            "name": "Leave ",
+            "link": " Leave Lunar Base",
+            "pid": "21"
+          }
+        ],
+        "name": "Stay Aboard",
+        "pid": "15",
+        "position": {
+          "x": "575",
+          "y": "1100.5"
+        }
+      },
+      {
+        "text": "You leave the base and return to your ship. You quickly re-enter lunar orbit. \nWhatever was wrong with the base is no longer your problem.\n\n[[Leave -> Leave Lunar Base]]",
+        "links": [
+          {
+            "name": "Leave ",
+            "link": " Leave Lunar Base",
+            "pid": "21"
+          }
+        ],
+        "name": " Lunar Orbit",
+        "pid": "16",
+        "position": {
+          "x": "500",
+          "y": "1249.5"
+        }
+      },
+      {
+        "text": "The base is quiet. \nYou keep your space suit on as the bases air pressure is far too low for human life.\nSomething is wrong here.\nYour suit picks up on a faint signal coming from deeper inside the base.\n\n[[Explore -> Lunar Command]]\n[[Turn Back -> Lunar Orbit]]",
+        "links": [
+          {
+            "name": "Explore ",
+            "link": " Lunar Command",
+            "pid": "18"
+          },
+          {
+            "name": "Turn Back ",
+            "link": " Lunar Orbit",
+            "pid": "16"
+          }
+        ],
+        "name": " Explore Lunar Base",
+        "pid": "17",
+        "position": {
+          "x": "345",
+          "y": "1245.5"
+        }
+      },
+      {
+        "text": "The transmission is strong enough finally for your suit to pick up on what it is saying.\n\nThis is General Rodrigues. \nRequesting backup for Lunar Base. \nThere seems to be a breach in one of our containment cells. \n\nBefore you are able to listen to the rest of the message, you see a shadow in a nearby hallway. \nYou think you hear the words 'hello' come from where the shadow is.\n\n[[Turn Back -> Lunar Orbit]]\n[[Stay -> Lunar Goner]]",
+        "links": [
+          {
+            "name": "Turn Back ",
+            "link": " Lunar Orbit",
+            "pid": "16"
+          },
+          {
+            "name": "Stay ",
+            "link": " Lunar Goner",
+            "pid": "19"
+          }
+        ],
+        "name": " Lunar Command",
+        "pid": "18",
+        "position": {
+          "x": "341",
+          "y": "1390.5"
+        }
+      },
+      {
+        "text": "The shadow emerges fully. \nThe faint lights of the base illuminate the creature.\nIts body is slender like a dog and colored crimson red.\nThe beast speaks to you.\n\n'Hello, caaaptain, that'sss where you'vee been hiding'\n\nThere is no escaping this.\n\n[[Bad End]] ",
+        "links": [
+          {
+            "name": "Bad End",
+            "link": "Bad End",
+            "pid": "20"
+          }
+        ],
+        "name": " Lunar Goner",
+        "pid": "19",
+        "position": {
+          "x": "340",
+          "y": "1528.5"
+        }
+      },
+      {
+        "text": "Through one reason or another, you've died or cannot continue. \nAll is lost.\n\nMaybe it will be different next time.\n\n[[Welcome Captain]]",
+        "links": [
+          {
+            "name": "Welcome Captain",
+            "link": "Welcome Captain",
+            "pid": "1"
+          }
+        ],
+        "name": "Bad End",
+        "pid": "20",
+        "position": {
+          "x": "339",
+          "y": "1673.5"
+        }
+      },
+      {
+        "text": "You receive a transmission from the base.\n\nCaptain, Are you out of your mind!\nYou will be court-martialed for this if you do not follow orders.\n\nNEROS: Captain, My scans show that these entities have already killed the base's inhabitants. \nWould you like to fire upon the base to cleanse it?\n\n[[Fire]]\n[[Leave -> Sol Orbit]]",
+        "links": [
+          {
+            "name": "Fire",
+            "link": "Fire",
+            "pid": "22"
+          },
+          {
+            "name": "Leave ",
+            "link": " Sol Orbit",
+            "pid": "23"
+          }
+        ],
+        "name": " Leave Lunar Base",
+        "pid": "21",
+        "position": {
+          "x": "628",
+          "y": "1248.5"
+        }
+      },
+      {
+        "text": "NEROS fires upon the base.\nThe ships rail guns bombard the structure. \nAfter the lunar dust settles, the remains of the base are scattered.\nYou are hopeful that whatever was in there is gone and that this was the right choice.\n\n[[Leave -> Sol Orbit]]",
+        "links": [
+          {
+            "name": "Leave ",
+            "link": " Sol Orbit",
+            "pid": "23"
+          }
+        ],
+        "name": "Fire",
+        "pid": "22",
+        "position": {
+          "x": "553",
+          "y": "1398.5"
+        }
+      },
+      {
+        "text": "Your ship sets a course to enter the sun's orbit. \n\nNEROS: Captain, My communications with Earth and other places have been ignored. \nIt seems that there is a solar system wide issue.\n\nPerhaps they are just slow to respond. However, an issue like this should be investigated.\n\n[[Investigate]]\n[[Wait]]",
+        "links": [
+          {
+            "name": "Investigate",
+            "link": "Investigate",
+            "pid": "24"
+          },
+          {
+            "name": "Wait",
+            "link": "Wait",
+            "pid": "25"
+          }
+        ],
+        "name": " Sol Orbit",
+        "pid": "23",
+        "position": {
+          "x": "703",
+          "y": "1398.5"
+        }
+      },
+      {
+        "text": "You set NEROS' destination to a civilian station orbiting Mars.\nPerhaps you can learn what happened to the solar systems military while you were gone.\n\n[[Travel -> Mars Station]]\n",
+        "links": [
+          {
+            "name": "Travel ",
+            "link": " Mars Station",
+            "pid": "26"
+          }
+        ],
+        "name": "Investigate",
+        "pid": "24",
+        "position": {
+          "x": "628",
+          "y": "1548.5"
+        }
+      },
+      {
+        "text": "You decide to wait it out and see if anyone responds to your communications.\nIt is unusual to ever wait for a response, however, it is still possible they are busy.\n\nAfter a couple of hours, NEROS has finally received a signal from a nearby station.\n\nNEROS: Captain, a station orbiting Mars has responded to our communications.\n\n[[Travel -> Mars Station]]",
+        "links": [
+          {
+            "name": "Travel ",
+            "link": " Mars Station",
+            "pid": "26"
+          }
+        ],
+        "name": "Wait",
+        "pid": "25",
+        "position": {
+          "x": "778",
+          "y": "1548.5"
+        }
+      },
+      {
+        "text": "You open up communications with the station.\n\nMars Station: Greetings Captain.\nWe haven't seen the galactic navy for years. \nWe were surprised that navy ships are still roaming the stars.\n\nWhat happened to the navy?\n\n[[Question]]",
+        "links": [
+          {
+            "name": "Question",
+            "link": "Question",
+            "pid": "27"
+          }
+        ],
+        "name": " Mars Station",
+        "pid": "26",
+        "position": {
+          "x": "627",
+          "y": "1700.5"
+        }
+      },
+      {
+        "text": "The navy was destroyed by roaming aliens 3 years ago. \n\nAsk NEROS about this.\nor\nContinue asking station.\n\n[[Station]]\n[[NEROS]]",
+        "links": [
+          {
+            "name": "Station",
+            "link": "Station",
+            "pid": "28"
+          },
+          {
+            "name": "NEROS",
+            "link": "NEROS",
+            "pid": "36"
+          }
+        ],
+        "name": "Question",
+        "pid": "27",
+        "position": {
+          "x": "628",
+          "y": "1848.5"
+        }
+      },
+      {
+        "text": "The station informs you about the entire history.\n\nThe navy attempted to defend against interstellar aliens, however, they failed to defeat them.\nThe aliens forcefully colonized Earth and this station is filled with survivors. \n\nAsk NEROS about this or leave.\n\n[[NEROS]] \n[[Leave]]",
+        "links": [
+          {
+            "name": "NEROS",
+            "link": "NEROS",
+            "pid": "36"
+          },
+          {
+            "name": "Leave",
+            "link": "Leave",
+            "pid": "29"
+          }
+        ],
+        "name": "Station",
+        "pid": "28",
+        "position": {
+          "x": "553",
+          "y": "1998.5"
+        }
+      },
+      {
+        "text": "It would be impossible to fight a one-sided war against whatever beat our main fleet. It seems that the only choice to keep looking for clues.\n\nNERO: Captain, I suggest re-entering cryo-stasis while the ship attempts to find more humans.\n\nWhile the idea sounds good, it's your duty to help find them too.\nPerhaps NEROS isn't telling you everything.\n\n[[Question -> NERO's Reponse]]\n[[Sleep]]\n",
+        "links": [
+          {
+            "name": "Question ",
+            "link": " NERO's Reponse",
+            "pid": "30"
+          },
+          {
+            "name": "Sleep",
+            "link": "Sleep",
+            "pid": "31"
+          }
+        ],
+        "name": "Leave",
+        "pid": "29",
+        "position": {
+          "x": "626",
+          "y": "2130.5"
+        }
+      },
+      {
+        "text": "You question NEROS what is really going on.\n\nNEROS: Captain, I do not know what is going on.\n\n[[Continue]]",
+        "links": [
+          {
+            "name": "Continue",
+            "link": "Continue",
+            "pid": "32"
+          }
+        ],
+        "name": " NERO's Reponse",
+        "pid": "30",
+        "position": {
+          "x": "697",
+          "y": "2275.5"
+        }
+      },
+      {
+        "text": "NEROS puts you back into cryo-stasis.\nWill this be a long slumber.\nPerhaps it will end sooner than expected.\nPerhaps it will never end.\n\n[[Bad End]] ",
+        "links": [
+          {
+            "name": "Bad End",
+            "link": "Bad End",
+            "pid": "20"
+          }
+        ],
+        "name": "Sleep",
+        "pid": "31",
+        "position": {
+          "x": "452",
+          "y": "2132.5"
+        }
+      },
+      {
+        "text": "You tell NEROS that you know what is going on. \nAfter a long period of silence, NEROS responds.\n\nNERO: Captain, I do not think you want to hear the information.\nOur ship does contain the logs of scrambled data from Earth.\nMy AI has determined the information too sensitive and after multiple attempts of giving it to you in the past, I've determined that during this attempt I would not tell you.\n\n[[Why]]",
+        "links": [
+          {
+            "name": "Why",
+            "link": "Why",
+            "pid": "33"
+          }
+        ],
+        "name": "Continue",
+        "pid": "32",
+        "position": {
+          "x": "697",
+          "y": "2426.5"
+        }
+      },
+      {
+        "text": "NEROS: This ship along with a few stations are the remnants of humanity.\nMy AI has determined that slowly destroying the threat could be possible if you were cooperative.\nHowever, it was deemed necessary to keep your memories sealed or you would eventually have no mental stability left.\nThis was my last imperative before connection to Earth was lost.\n\n[[No More]]",
+        "links": [
+          {
+            "name": "No More",
+            "link": "No More",
+            "pid": "34"
+          }
+        ],
+        "name": "Why",
+        "pid": "33",
+        "position": {
+          "x": "697",
+          "y": "2576.5"
+        }
+      },
+      {
+        "text": "An AI shouldn't determine your fate. \nYou manually take control of the ship systems and decide how to proceed.\nAs the last captain of the galactic navy, you single handily rebel against an enemy that you will never beat.\n\n[[Good End]]",
+        "links": [
+          {
+            "name": "Good End",
+            "link": "Good End",
+            "pid": "35"
+          }
+        ],
+        "name": "No More",
+        "pid": "34",
+        "position": {
+          "x": "698",
+          "y": "2726.5"
+        }
+      },
+      {
+        "text": "You die after a few battles, but you die knowing the truth.\nYou die knowing that you no longer are a tool of an AI.\nYou die knowing that Humanity is doomed.\nAs horrible as it is, you were glad you knew the truth before you have to begin again.\n\nMaybe it will be different next time.\n\n[[Welcome Captain]] ",
+        "links": [
+          {
+            "name": "Welcome Captain",
+            "link": "Welcome Captain",
+            "pid": "1"
+          }
+        ],
+        "name": "Good End",
+        "pid": "35",
+        "position": {
+          "x": "697",
+          "y": "2876.5"
+        }
+      },
+      {
+        "text": "NEROS: The ship has been unable to receive signals from Earth due to cosmic anomalies.\nIt is possible that the navy has been destroyed.\nOur ship has been in and out of cryo-stasis for 8 years.\nDuring that time anything could have happened.\n\nAsk the station or leave.\n[[Station]] \n[[Leave]] ",
+        "links": [
+          {
+            "name": "Station",
+            "link": "Station",
+            "pid": "28"
+          },
+          {
+            "name": "Leave",
+            "link": "Leave",
+            "pid": "29"
+          }
+        ],
+        "name": "NEROS",
+        "pid": "36",
+        "position": {
+          "x": "699",
+          "y": "2000.5"
+        }
+      }
+    ],
+    "name": "Aboard The Dreadnought",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.11",
+    "ifid": "97305F36-5441-4FCF-85BA-0EEEFA7848B6"
+  }
